@@ -1,0 +1,8 @@
+xxxxxxxxxxx....................;Press 'e' to edit;Press 'e';Edit Habits;
+xxxxxxxxxx.....................;Take a Walk;;;
+xxxxxxxxxxx.............-------;Read the book;;;START book.pdf
+------xxxxx....................;Write;;;START obsidian.lnk
+-------------------------------;;;;
+x-x-x-x-x-x-.-.-.-.-.-.-.-.-.-.;Study Math;;;
+-x-x-x-x-x-.-.-.-.-.-.-.-.-.-.-;Study Programming;;;
+
