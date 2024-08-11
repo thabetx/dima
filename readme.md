@@ -2,9 +2,13 @@
 
 Dima is a monthly habit tracking program.
 
+![2024-08-12-00_33_42](https://github.com/user-attachments/assets/37dae771-f83f-4cfd-bfdb-9053b0f1aa28)
+
+
+
 # Getting the program
 
-You can download a prebuilt release from here (Add the link).
+[You can download a prebuilt release from the releases page.](https://github.com/thabetx/dima/releases).
 
 Or you can build it from source
 1. Download/Clone the code
@@ -19,9 +23,12 @@ When you run the program, a new file called something like `2024-08.txt` (Year-M
 
 That file contents look like this
 ```
-xxxxxxx.................-------;Habit 1 Name;Description;Purpose;Command
-xxxxxxx.................-------;Habit 2 Name;Description;Purpose;Command
-xxxxxxx.................-------;Habit 3 Name;Description;Purpose;Command
+xxxxxxxxxx.....................;Take a Walk;;;
+xxxxxxxxxxx.............-------;Read the book;;;START book.pdf
+------xxxxx....................;Write;;;START obsidian.lnk
+-------------------------------;;;;
+x-x-x-x-x-x-.-.-.-.-.-.-.-.-.-.;Study Math;;;
+-x-x-x-x-x-.-.-.-.-.-.-.-.-.-.-;Study Programming;;;
 ```
 
 Each line represents a habit. The line consists of five semicolon-separated parts
