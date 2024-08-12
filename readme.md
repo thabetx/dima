@@ -8,7 +8,7 @@ Dima is a monthly habit tracking program.
 
 # Getting the program
 
-[You can download a prebuilt release from the releases page.](https://github.com/thabetx/dima/releases).
+[You can download a prebuilt release from the releases page](https://github.com/thabetx/dima/releases)
 
 Or you can build it from source
 1. Download/Clone the code
