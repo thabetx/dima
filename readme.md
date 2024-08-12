@@ -32,7 +32,7 @@ x-x-x-x-x-x-.-.-.-.-.-.-.-.-.-.;Study Math;;;
 ```
 
 Each line represents a habit. The line consists of five semicolon-separated parts
-1. The state of days (31 marks): `x` is done, `.` is not done, and is `-` canceled
+1. The state of days (31 marks): `x` is done, `.` is not done, and `-` is canceled
 2. The habit name (Optional)
 3. Description of the habit (Optional)
 4. Purpose of the habit (Optional)
