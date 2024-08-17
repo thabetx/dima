@@ -2,7 +2,7 @@
 
 Dima is a monthly habit tracking program.
 
-![2024-08-12-00_33_42](https://github.com/user-attachments/assets/37dae771-f83f-4cfd-bfdb-9053b0f1aa28)
+https://github.com/user-attachments/assets/6a58aaf6-4842-4f03-bd5a-e38e15524ab5
 
 # Getting the program
 
@@ -59,6 +59,8 @@ You are always free to fork and make your changes.
 
 ## Theme Editor
 There is a theme editor, that can be opened by pressing `t`. Colors are saved automatically to `colors.hex`.
+
+https://github.com/user-attachments/assets/b94e835e-4321-4239-8d7f-293bf0e6cec3
 
 ## Syncing
 The program operates on files on disk. You can use any syncing solution on the folder (I use SyncThing).
