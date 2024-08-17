@@ -4,11 +4,9 @@ Dima is a monthly habit tracking program.
 
 ![2024-08-12-00_33_42](https://github.com/user-attachments/assets/37dae771-f83f-4cfd-bfdb-9053b0f1aa28)
 
-
-
 # Getting the program
 
-[You can download a prebuilt release from the releases page](https://github.com/thabetx/dima/releases)
+[You can download a prebuilt release from the releases page here](https://github.com/thabetx/dima/releases)
 
 Or you can build it from source
 1. Download/Clone the code
@@ -56,3 +54,33 @@ Bug-fix PRs are welcome as well.
 I didn't need to add any features to the program for a long time. So, features PRs might not get merged. It's better to discuss them in the issue tracker before taking any action.
 
 You are always free to fork and make your changes.
+
+# Advanced Usage
+
+## Theme Editor
+There is a theme editor, that can be opened by pressing `t`. Colors are saved automatically to `colors.hex`.
+
+## Syncing
+The program operates on files on disk. You can use any syncing solution on the folder (I use SyncThing).
+
+## Using the dash/skipped days strategically
+Something I was  surprised about is the versatility of the `-`. Here are some uses:
+- Cancel a habit without worrying about it in following days `xxxxxxxx-----------------`
+- Add a new habit without affecting the previous days `--------------xx.........`
+- Create a separator line `---------------------------;;;;`
+- Schedule habits at certain days e.g. weekends `-----xx-----..-----..`
+- Create alternating habits
+```
+-x-x-x-x-x-x-.-.-.-.-.-
+x-x-x-x-x-x-.-.-.-.-.-.
+```
+
+## Using Commands
+The last element of each habit is a command. When clicking on it it executes that command.
+Here are some ideas of how I use it
+- `START book.pdf`: Open a book for reading
+- `START anki`: Start Anki
+- `START c:\dev\dima\readme.md`: Open an editor to update the readme of this project
+- `START D:\firefox.lnk https://.......`: Open a website for following something
+
+To make commands shorter, you can create shortcuts or add programs to path.
