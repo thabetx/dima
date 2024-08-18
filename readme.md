@@ -93,3 +93,19 @@ Whenever you select a habit, the timer starts running. And when the habit is don
 ## Faster toggling
 You can toggle a habit by pressing right click on its name. This will toggle today's status.
 
+# Design Decisions
+
+## The format is similar to CSV with two differences
+- Semicolon separated instead of comma Separated: It's more common for me to use commas in the habit name or description compared to semicolons
+- No header row: as it's unnecessary to the file format
+
+## Format as text instead of binary
+- Easier editing in a text editor, which in turn simplifies the program
+- Diffable in case of conflicts
+- Easy for other programs to parse, e.g. the Android client
+
+## Scoping to a single month (opinionated)
+- A month is a good unit of habit tracking
+- The end of a month is a good point for revisiting all habits
+- The text format is simple so you can aggregate data across files if you wish
+- The program can be extended to show months consecutively if need be
