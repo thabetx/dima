@@ -86,3 +86,10 @@ Here are some ideas of how I use it
 - `START D:\firefox.lnk https://.......`: Open a website for following something
 
 To make commands shorter, you can create shortcuts or add programs to path.
+
+## The timer
+Whenever you select a habit, the timer starts running. And when the habit is done, it resets. You can keep an eye on it for simple time tracking or you can ignore it.
+
+## Faster toggling
+You can toggle a habit by pressing right click on its name. This will toggle today's status.
+
