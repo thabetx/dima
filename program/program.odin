@@ -441,7 +441,13 @@ draw :: proc() {
 	}
 
 	if st.e_pressed {
-		system(cstr(fmt.tprintf("START %v", file_name)))
+		when ODIN_OS == .Windows {
+			system(cstr(fmt.tprintf("START %v", file_name)))
+		} else when ODIN_OS == .Linux {
+			system(cstr(fmt.tprintf("xdg-open %v", file_name)))
+		} else when ODIN_OS == .Darwin {
+			system(cstr(fmt.tprintf("open %v", file_name)))
+		}
 	}
 
 	frame += 1
