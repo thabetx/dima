@@ -9,15 +9,8 @@ import "core:strconv"
 import "core:strings"
 import "core:time"
 
-// NOTE: c/libc.system() conflicts with raylib, so I use this small library instead
-when ODIN_OS == .Windows {
-	foreign import launch_lib "../launch/launch.lib"
-	foreign launch_lib {
-		launch :: proc(_: cstring) ---
-	}
-} else {
-	launch :: proc(_: cstring) {
-	}
+foreign {
+	system :: proc(cmd: cstring) -> int ---
 }
 
 Habit :: struct {
@@ -216,7 +209,7 @@ draw :: proc() {
 			current_habit = hi
 			timer = 0
 			if len(h.cmd) > 0 {
-				launch(cstr(h.cmd))
+				system(cstr(h.cmd))
 			}
 		}
 	}
@@ -448,7 +441,7 @@ draw :: proc() {
 	}
 
 	if st.e_pressed {
-		launch(cstr(fmt.tprintf("START %v", file_name)))
+		system(cstr(fmt.tprintf("START %v", file_name)))
 	}
 
 	frame += 1

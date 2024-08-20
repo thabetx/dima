@@ -19,11 +19,6 @@ font: ray.Font
 st: program.State
 old_st: program.State
 
-// foreign import launch_lib "../launch/launch.lib"
-// foreign launch_lib {
-// launch :: proc(_: cstring) ---
-// }
-
 load :: proc() -> bool {
 	dll_name :: "program"
 	dll_ext :: ".dll"
@@ -39,9 +34,6 @@ load :: proc() -> bool {
 	new_name := fmt.tprintf("{}_{}{}", dll_name, last_write_time, dll_ext)
 	api_load_time = last_write_time
 
-	// command := fmt.ctprintf("copy {} {}", full_name, new_name)
-	// fmt.println(command)
-	// launch(command)
 	copy_error := os2.copy_file(new_name, full_name)
 	// NOTE: This returns an error even if the copy is successful
 	// if copy_error != nil {
