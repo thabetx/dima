@@ -109,3 +109,18 @@ You can toggle a habit by pressing right click on its name. This will toggle tod
 - The end of a month is a good point for revisiting all habits
 - The text format is simple so you can aggregate data across files if you wish
 - The program can be extended to show months consecutively if need be
+
+## No date
+The program opens the file of the current month on stratup. And there is no date shown anywhere. However, the column of the current day is hightlighted.
+
+## The bottom bar
+The bottom bar is a space for experiments (counts/timer/description). So it might get removed at some point.
+
+## Colors
+The done state is communicated through color. Thus, there is no streak counter, the graph itself is the streak. Alternatings row colors are used for easier readability.
+
+## Act on press
+The checkboxes act on press for immediate feedback rather than acting on release, it makes the program feel more responsive.
+
+## Particles
+The particles is celberatory addition are there just for fun.
