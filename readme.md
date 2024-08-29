@@ -1,5 +1,20 @@
 # Dima
 
+
+>سُئِلَ النَّبِيُّ صلى الله عليه وسلم أَىُّ الأَعْمَالِ أَحَبُّ إِلَى اللَّهِ قَالَ ‏"‏ أَدْوَمُهَا وَإِنْ قَلَّ ‏"‏‏.‏ وَقَالَ ‏"‏ اكْلَفُوا مِنَ الأَعْمَالِ مَا تُطِيقُونَ ‏"‏‏.‏
+>
+>The Prophet (ﷺ) was asked, "What deeds are loved most by Allah?" He said, "The most regular constant deeds even though they may be few." He added, 'Don't take upon yourselves, except the deeds which are within your ability."
+>
+>https://sunnah.com/bukhari:6465 
+
+ >سَأَلْتُ أُمَّ الْمُؤْمِنِينَ عَائِشَةَ قُلْتُ يَا أُمَّ الْمُؤْمِنِينَ كَيْفَ كَانَ عَمَلُ النَّبِيِّ صلى الله عليه وسلم هَلْ كَانَ يَخُصُّ شَيْئًا مِنَ الأَيَّامِ قَالَتْ لاَ، كَانَ عَمَلُهُ دِيمَةً، وَأَيُّكُمْ يَسْتَطِيعُ مَا كَانَ النَّبِيُّ صلى الله عليه وسلم يَسْتَطِيعُ‏.‏
+ >
+ >I asked `Aisha, mother of the believers, "O mother of the believers! How were the deeds of the Prophet? Did he use to do extra deeds of worship on special days?" She said, "No, but his deeds were regular and constant, and who among you is able to do what the Prophet (ﷺ) was able to do (i.e. in worshipping Allah)?"
+>
+>https://sunnah.com/bukhari:6466
+
+Dima (Romanization for the Arabic work ديمة): Constant calm rain without lightning or thunder.
+
 Dima is a monthly habit tracking program.
 
 https://github.com/user-attachments/assets/6a58aaf6-4842-4f03-bd5a-e38e15524ab5
