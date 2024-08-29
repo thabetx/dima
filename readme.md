@@ -12,7 +12,7 @@ Or you can build it from source
 1. Download/Clone the code
 2. Download the Odin compiler
 3. Add the Odin compiler to the path
-4. Run `build.bat`
+4. Run `build.bat` or run 'odin build main`
 
 The program's exe will be generated in the build folder.
 
